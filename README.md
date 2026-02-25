@@ -5,15 +5,13 @@ Funktion hat einen deutschen Docstring, `pass` als Platzhalter und soll von den
 Studierenden implementiert werden. Fokus: Strings, Listen, Dicts/Sets,
 Schleifen, einfache Mathematik und saubere Funktionalität.
 
-## Gruppenaufteilung (8 Gruppen laut Board)
-- heidi & atila: Funktionen 1–12 (`aufgabe_001` bis `aufgabe_012`)
-- Saeid & Ulrich: Funktionen 13–24 (`aufgabe_013` bis `aufgabe_024`)
-- Nikita & Simon: Funktionen 25–37 (`aufgabe_025` bis `aufgabe_037`)
-- Ljubica & Alex: Funktionen 38–50 (`aufgabe_038` bis `aufgabe_050`)
-- Murat, Tom & Houssin: Funktionen 51–62 (`aufgabe_051` bis `aufgabe_062`)
-- Fabienne, Posh & Max: Funktionen 63–75 (`aufgabe_063` bis `aufgabe_075`)
-- German & matthias: Funktionen 76–87 (`aufgabe_076` bis `aufgabe_087`)
-- schamja, majd & hasmik: Funktionen 88–100 (`aufgabe_088` bis `aufgabe_100`)
+## Gruppenaufteilung (6 Gruppen laut Board)
+- **Gruppe 1** (Arne, Alina, Philipp): Funktionen 1–17 (`aufgabe_001` bis `aufgabe_017`)
+- **Gruppe 2** (Frank, Levent, Joahnnes): Funktionen 18–34 (`aufgabe_018` bis `aufgabe_034`)
+- **Gruppe 3** (Bjoern, Hakan, Markus): Funktionen 35–50 (`aufgabe_035` bis `aufgabe_050`)
+- **Gruppe 4** (Nick, Ladysh, Angelique): Funktionen 51–67 (`aufgabe_051` bis `aufgabe_067`)
+- **Gruppe 5** (Torben, Nikit, Yannic, Malte): Funktionen 68–84 (`aufgabe_068` bis `aufgabe_084`)
+- **Gruppe 6** (Sinan, Viktor, Martin): Funktionen 85–100 (`aufgabe_085` bis `aufgabe_100`)
 
 Hinweis: Die Nummer ist im Funktionsnamen enthalten. Bitte bearbeitet nur den
 euch zugewiesenen Bereich, damit Merge-Konflikte minimiert werden. Eure Namen
@@ -22,8 +20,8 @@ stehen auch direkt als Kommentar über jeder Aufgabe in `aufgaben.py`.
 ## Vorgehensweise für Studierende
 1. Repository klonen: `git clone <repo-url>`
 2. In das Repo wechseln: `cd Project-x`
-3. Eigenen Branch anlegen (Beispiel für Gruppe heidi/atila, Person Heidi):
-   - `git checkout -b heidi-atila/heidi`
+3. Eigenen Branch anlegen (Beispiel für Gruppe 1, Person Arne):
+   - `git checkout -b gruppe-1/arne`
 4. Nur eure Funktionen in `aufgaben.py` implementieren (Docstring lesen).
 5. Lokale Checks (Beispiele):
    - Optional: einfache Selbsttests schreiben/ausführen
@@ -32,7 +30,7 @@ stehen auch direkt als Kommentar über jeder Aufgabe in `aufgaben.py`.
 7. Änderungen vormerken und committen:
    - `git add aufgaben.py`
    - `git commit -m "Implementiere Aufgaben 001-010"`
-8. Branch pushen: `git push origin heidi-atila/heidi`
+8. Branch pushen: `git push origin gruppe-1/arne`
 9. Pull Request (PR) im Git-Host erstellen. Reviewer: Dozent oder Teamlead.
 10. Feedback einarbeiten, PR aktualisieren (`git add` + `git commit --amend` oder
     neuer Commit, dann `git push --force-with-lease` bei amend).

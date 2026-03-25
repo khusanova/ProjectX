@@ -251,7 +251,7 @@ def aufgabe_040_count_letters(text: str) -> dict[str, int]:
     pass
 
 
-# Gruppe: Muhammad, Yanu, Natalya
+# Gruppe: Muhammad,
 def aufgabe_041_group_by_length(worte: list[str]) -> dict[int, list[str]]:
     """Gruppiere Wörter nach ihrer Länge."""
     pass

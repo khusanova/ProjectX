@@ -257,7 +257,7 @@ def aufgabe_041_group_by_length(worte: list[str]) -> dict[int, list[str]]:
     pass
 
 
-# Gruppe: Muhammad, Yanu, Natalya
+# Gruppe 3: Yanu
 def aufgabe_042_word_frequency(worte: list[str]) -> dict[str, int]:
     """Erstelle eine Häufigkeitstabelle für Wörter."""
     pass

@@ -185,19 +185,40 @@ def aufgabe_029_drehe_liste(werte: list[Any]) -> list[Any]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_030_flatten(liste_von_listen: list[list[int]]) -> list[int]:
     """Führe eine verschachtelte Liste zu einer flachen Liste zusammen."""
-    pass
+    result = []
+    for nums in liste_von_listen:
+        for num in nums:
+            result.append(num)
+    return result
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_031_merge_lists(a: list[int], b: list[int]) -> list[int]:
     """Mische zwei Listen abwechselnd (falls ungleich lang, Rest anhängen)."""
-    pass
+    merged_list = []
+
+    min_length = min(len(a), len(b))
+
+    for i in range(min_length):
+        merged_list.append(a[i])
+        merged_list.append(b[i])
+
+    if len(a) > len(b):
+        merged_list.extend(a[min_length:])
+    else:
+        merged_list.extend(b[min_length:])
+
+    return merged_list
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_032_remove_none(werte: list[Optional[int]]) -> list[int]:
     """Entferne alle None-Werte aus der Liste."""
-    pass
+    result = []
+    for wert in werte:
+        if wert is not None:
+            result.append(wert)
+    return result
 
 
 # Gruppe: Jennifer, Eric, Vincent

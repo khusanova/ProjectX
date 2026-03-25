@@ -30,10 +30,10 @@ def aufgabe_003_ist_palindrom(text: str) -> bool:
         return False
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Alexander
 def aufgabe_004_zu_grossbuchstaben(text: str) -> str:
     """Wandle alle Zeichen in Großbuchstaben um."""
-    pass
+    return text.upper()
 
 
 # Gruppe: Erik

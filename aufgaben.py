@@ -253,8 +253,22 @@ def aufgabe_040_count_letters(text: str) -> dict[str, int]:
 
 # Gruppe: Muhammad, Yanu, Natalya
 def aufgabe_041_group_by_length(worte: list[str]) -> dict[int, list[str]]:
-    """Gruppiere Wörter nach ihrer Länge."""
-    pass
+    """Group words by their lengths.
+
+    Args:
+        worte: list of words.
+
+    Returns:
+        dictionary with lengths of words as keys and list of words with this
+        lengths as values.
+    """
+    output_dict = {}
+    for wort in worte:
+        length = len(wort)
+        if not output_dict.get(length):
+            output_dict[length] = []
+        output_dict[length].append(wort)
+    return output_dict
 
 
 # Gruppe 3: Yanu

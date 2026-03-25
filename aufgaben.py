@@ -245,7 +245,13 @@ def aufgabe_039_merge_dicts(a: dict[str, Any], b: dict[str, Any]) -> dict[str, A
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_040_count_letters(text: str) -> dict[str, int]:
     """Zähle, wie oft jeder Buchstabe im Text vorkommt (case-insensitive)."""
-    pass
+    dict = {}
+    for char in text.lower():
+        if char in dict:
+            dict[char] += 1
+        else:
+            dict[char] = 1
+    return dict
 
 
 # Gruppe: Muhammad, Yanu, Natalya

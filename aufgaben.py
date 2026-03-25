@@ -9,7 +9,7 @@ from typing import Any, Optional
 
 text = "Gruppe"
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe 1: Alexander
 def aufgabe_001_spiegle_text(text: str) -> str:
     """Gib den Text rückwärts zurück."""
     return text[::-1]
@@ -48,7 +48,7 @@ def aufgabe_006_capitalize_saetze(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe 1: Alexander
 def aufgabe_007_ersetze_zeichen(text: str, alt: str, neu: str) -> str:
     """Ersetze alle Vorkommen von alt durch neu in text."""
     pass
@@ -66,7 +66,7 @@ def aufgabe_009_kuerze_text(text: str, limit: int) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe 1: Alexander
 def aufgabe_010_teile_worte(text: str) -> list[str]:
     """Zerlege einen Satz in Wörter, getrennt nach Leerzeichen."""
     pass
@@ -84,7 +84,7 @@ def aufgabe_012_laengstes_wort(worte: list[str]) -> Optional[str]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe 1: Alexander
 def aufgabe_013_zaehle_ziffern(text: str) -> int:
     """Zähle alle Zeichen im Text, die Ziffern sind."""
     pass
@@ -120,7 +120,7 @@ def aufgabe_018_max_wert(zahlen: list[int]) -> Optional[int]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe 1: Alexander
 def aufgabe_019_min_wert(zahlen: list[int]) -> Optional[int]:
     """Gib den kleinsten Wert zurück, None bei leerer Liste."""
     pass

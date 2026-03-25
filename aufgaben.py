@@ -224,7 +224,11 @@ def aufgabe_032_remove_none(werte: list[Optional[int]]) -> list[int]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_033_chunk_list(werte: list[int], groesse: int) -> list[list[int]]:
     """Zerlege die Liste in Blöcke der Länge groesse."""
-    pass
+    chunks = []
+    for start in range(0, len(werte), groesse):
+        chunk = werte[start : start + groesse]
+        chunks.append(chunk)
+    return chunks
 
 
 # Gruppe: Jennifer, Eric, Vincent

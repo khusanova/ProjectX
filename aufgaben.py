@@ -14,7 +14,7 @@ def aufgabe_001_spiegle_text(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Erik
 def aufgabe_002_zaehle_vokale(text: str) -> int:
     """Zähle die Anzahl der Vokale im Text (a, e, i, o, u)."""
     pass
@@ -32,7 +32,7 @@ def aufgabe_004_zu_grossbuchstaben(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Erik
 def aufgabe_005_zu_kleinbuchstaben(text: str) -> str:
     """Wandle alle Zeichen in Kleinbuchstaben um."""
     pass
@@ -50,7 +50,7 @@ def aufgabe_007_ersetze_zeichen(text: str, alt: str, neu: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Erik
 def aufgabe_008_zaehle_wort(text: str, wort: str) -> int:
     """Zähle, wie oft wort im Text vorkommt (wortgenau)."""
     pass
@@ -68,7 +68,7 @@ def aufgabe_010_teile_worte(text: str) -> list[str]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Erik
 def aufgabe_011_verbinde_worte(worte: list[str], trenner: str = ", ") -> str:
     """Verbinde Wörter mit dem angegebenen Trenner zu einem String."""
     pass
@@ -86,7 +86,7 @@ def aufgabe_013_zaehle_ziffern(text: str) -> int:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Erik
 def aufgabe_014_entferne_whitespace(text: str) -> str:
     """Entferne alle Whitespaces (Leerzeichen, Tabs, Zeilenumbrüche)."""
     pass
@@ -104,7 +104,7 @@ def aufgabe_016_summe_liste(zahlen: list[int]) -> int:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe:Erik
 def aufgabe_017_mittelwert(zahlen: list[float]) -> float:
     """Berechne den arithmetischen Mittelwert der Liste."""
     pass
@@ -122,7 +122,7 @@ def aufgabe_019_min_wert(zahlen: list[int]) -> Optional[int]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe:Erik
 def aufgabe_020_sortiere_aufsteigend(zahlen: list[int]) -> list[int]:
     """Gib eine neue Liste mit aufsteigend sortierten Zahlen zurück."""
     pass

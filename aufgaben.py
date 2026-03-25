@@ -7,6 +7,8 @@ getesteten Code und haltet euch an PEP 8.
 
 from typing import Any, Optional
 
+from Cryptodome.Util.RFC1751 import wordlist
+
 
 # Gruppe: Alexander, Erik, Jan B
 def aufgabe_001_spiegle_text(text: str) -> str:
@@ -44,7 +46,12 @@ def aufgabe_005_zu_kleinbuchstaben(text: str) -> str:
 # Jan B
 def aufgabe_006_capitalize_saetze(text: str) -> str:
     """Setze den ersten Buchstaben jedes Satzes auf Großbuchstaben."""
-    pass
+    wordlist = []
+    for word in text.split(". "):
+        print(word)
+        upper_word = word[0].upper() + word[1:] +"."
+        wordlist.append(upper_word)
+    return " ".join(wordlist)
 
 
 # Gruppe: Alexander, Erik, Jan B

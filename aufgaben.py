@@ -234,7 +234,8 @@ def aufgabe_033_chunk_list(werte: list[int], groesse: int) -> list[list[int]]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_034_rotate_left(werte: list[int], schritte: int) -> list[int]:
     """Rotiert die Liste um schritte nach links."""
-    pass
+    schritte = schritte % len(werte)
+    return werte[schritte:] + werte[:schritte]
 
 
 # Gruppe: Jennifer, Eric, Vincent

@@ -371,13 +371,14 @@ def aufgabe_060_binaer_zu_int(bits: str) -> int:
 # Gruppe: Bjoern, Hakan, Markus
 def aufgabe_061_int_zu_binaer(n: int) -> str:
     """Wandle eine Ganzzahl in einen Binärstring ohne Präfix um."""
-    pass
+    bin_str = bin(n)[2:]
+    print(bin_str)  # "1101"
+    return bin_str
 
 
 # Gruppe: Bjoern, Hakan, Markus
 def aufgabe_062_zahlenformat(n: float, nachkommastellen: int) -> str:
     """Formatiere eine Zahl mit fester Anzahl Nachkommastellen."""
-    pass
 
 
 # Gruppe: Nick, Ladysh, Angelique
@@ -607,3 +608,9 @@ def aufgabe_100_teile_in_abschnitte(text: str, breite: int) -> list[str]:
     """Zerlege einen Text in Abschnitte fester Breite."""
     pass
 
+
+def main():
+    aufgabe_061_int_zu_binaer(13)
+    
+if __name__ == "__main__":
+    main()

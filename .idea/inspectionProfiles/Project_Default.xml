@@ -1,0 +1,8 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInconsistentReturnsInspection" enabled="true" level="STYLE_SUGGESTION" enabled_by_default="true" editorAttributes="TEXT_STYLE_SUGGESTION">
+      <scope name="Project Files" level="WEAK WARNING" enabled="true" />
+    </inspection_tool>
+  </profile>
+</component>

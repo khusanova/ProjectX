@@ -241,7 +241,16 @@ def aufgabe_034_rotate_left(werte: list[int], schritte: int) -> list[int]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_035_split_even_odd(werte: list[int]) -> tuple[list[int], list[int]]:
     """Trenne die Liste in gerade und ungerade Zahlen auf."""
-    pass
+    gerade = []
+    ungerade = []
+
+    for wert in werte:
+        if wert % 2 == 0:
+            gerade.append(wert)
+        else:
+            ungerade.append(wert)
+
+    return gerade, ungerade
 
 
 # Gruppe: Jennifer, Eric, Vincent

@@ -5,8 +5,7 @@ Funktion hat einen deutschen Docstring, `pass` als Platzhalter und soll von den
 Studierenden implementiert werden. Fokus: Strings, Listen, Dicts/Sets,
 Schleifen, einfache Mathematik und saubere Funktionalität.
 
-## Gruppenaufteilung (6 Gruppen laut Board)
-## Gruppenaufteilung (5 Gruppen laut Board)
+## Gruppenaufteilung (5 Gruppen)
 - **Gruppe 1** (Alexander, Erik, Jan B): Funktionen 1–20 (`aufgabe_001` bis `aufgabe_020`)
 - **Gruppe 2** (Jennifer, Eric, Vincent): Funktionen 21–40 (`aufgabe_021` bis `aufgabe_040`)
 - **Gruppe 3** (Muhammad, Yanu, Natalya): Funktionen 41–60 (`aufgabe_041` bis `aufgabe_060`)

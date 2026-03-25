@@ -256,7 +256,9 @@ def aufgabe_035_split_even_odd(werte: list[int]) -> tuple[list[int], list[int]]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_036_dict_keys_sort(data: dict[str, int]) -> list[str]:
     """Gib sortierte Schlüssel eines Dicts zurück."""
-    pass
+    keys = list(data.keys())
+    keys.sort()
+    return keys
 
 
 # Gruppe: Jennifer, Eric, Vincent

@@ -6,12 +6,12 @@ Studierenden implementiert werden. Fokus: Strings, Listen, Dicts/Sets,
 Schleifen, einfache Mathematik und saubere Funktionalität.
 
 ## Gruppenaufteilung (6 Gruppen laut Board)
-- **Gruppe 1** (Arne, Alina, Philipp): Funktionen 1–17 (`aufgabe_001` bis `aufgabe_017`)
-- **Gruppe 2** (Frank, Levent, Joahnnes): Funktionen 18–34 (`aufgabe_018` bis `aufgabe_034`)
-- **Gruppe 3** (Bjoern, Hakan, Markus): Funktionen 35–50 (`aufgabe_035` bis `aufgabe_050`)
-- **Gruppe 4** (Nick, Ladysh, Angelique): Funktionen 51–67 (`aufgabe_051` bis `aufgabe_067`)
-- **Gruppe 5** (Torben, Nikit, Yannic, Malte): Funktionen 68–84 (`aufgabe_068` bis `aufgabe_084`)
-- **Gruppe 6** (Sinan, Viktor, Martin): Funktionen 85–100 (`aufgabe_085` bis `aufgabe_100`)
+## Gruppenaufteilung (5 Gruppen laut Board)
+- **Gruppe 1** (Alexander, Erik, Jan B): Funktionen 1–20 (`aufgabe_001` bis `aufgabe_020`)
+- **Gruppe 2** (Jennifer, Eric, Vincent): Funktionen 21–40 (`aufgabe_021` bis `aufgabe_040`)
+- **Gruppe 3** (Muhammad, Yanu, Natalya): Funktionen 41–60 (`aufgabe_041` bis `aufgabe_060`)
+- **Gruppe 4** (Felix, Andreas, Johannes): Funktionen 61–80 (`aufgabe_061` bis `aufgabe_080`)
+- **Gruppe 5** (Jan R., York-Phillipp, Michael): Funktionen 81–100 (`aufgabe_081` bis `aufgabe_100`)
 
 Hinweis: Die Nummer ist im Funktionsnamen enthalten. Bitte bearbeitet nur den
 euch zugewiesenen Bereich, damit Merge-Konflikte minimiert werden. Eure Namen

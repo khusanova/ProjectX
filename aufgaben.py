@@ -20,10 +20,13 @@ def aufgabe_002_zaehle_vokale(text: str) -> int:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_003_ist_palindrom(text: str) -> bool:
     """Prüfe, ob der Text ein Palindrom ist (Groß/Klein ignorieren)."""
-    pass
+    if text.lower() == text[::-1].lower():
+        return True
+    else:
+        return False
 
 
 # Gruppe: Alexander, Erik, Jan B
@@ -38,7 +41,7 @@ def aufgabe_005_zu_kleinbuchstaben(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_006_capitalize_saetze(text: str) -> str:
     """Setze den ersten Buchstaben jedes Satzes auf Großbuchstaben."""
     pass
@@ -56,7 +59,7 @@ def aufgabe_008_zaehle_wort(text: str, wort: str) -> int:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_009_kuerze_text(text: str, limit: int) -> str:
     """Schneide den Text nach limit Zeichen ab und füge '...' an, falls nötig."""
     pass
@@ -74,7 +77,7 @@ def aufgabe_011_verbinde_worte(worte: list[str], trenner: str = ", ") -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_012_laengstes_wort(worte: list[str]) -> Optional[str]:
     """Finde das längste Wort in der Liste, None bei leerer Liste."""
     pass
@@ -92,13 +95,13 @@ def aufgabe_014_entferne_whitespace(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_015_slugify(text: str) -> str:
     """Erzeuge einen einfachen Slug: Kleinbuchstaben, '-' statt Leerzeichen."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_016_summe_liste(zahlen: list[int]) -> int:
     """Summiere alle Zahlen in der Liste."""
     pass
@@ -110,7 +113,7 @@ def aufgabe_017_mittelwert(zahlen: list[float]) -> float:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Jan B
 def aufgabe_018_max_wert(zahlen: list[int]) -> Optional[int]:
     """Gib den größten Wert zurück, None bei leerer Liste."""
     pass

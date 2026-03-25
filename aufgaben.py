@@ -8,43 +8,43 @@ getesteten Code und haltet euch an PEP 8.
 from typing import Any, Optional
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_001_spiegle_text(text: str) -> str:
     """Gib den Text rückwärts zurück."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander, Erik, Jan B
 def aufgabe_002_zaehle_vokale(text: str) -> int:
     """Zähle die Anzahl der Vokale im Text (a, e, i, o, u)."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander, Erik, Jan B
 def aufgabe_003_ist_palindrom(text: str) -> bool:
     """Prüfe, ob der Text ein Palindrom ist (Groß/Klein ignorieren)."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_004_zu_grossbuchstaben(text: str) -> str:
     """Wandle alle Zeichen in Großbuchstaben um."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander, Erik, Jan B
 def aufgabe_005_zu_kleinbuchstaben(text: str) -> str:
     """Wandle alle Zeichen in Kleinbuchstaben um."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander, Erik, Jan B
 def aufgabe_006_capitalize_saetze(text: str) -> str:
     """Setze den ersten Buchstaben jedes Satzes auf Großbuchstaben."""
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe: Alexander
 def aufgabe_007_ersetze_zeichen(text: str, alt: str, neu: str) -> str:
     """Ersetze alle Vorkommen von alt durch neu in text."""
     pass
@@ -62,7 +62,7 @@ def aufgabe_009_kuerze_text(text: str, limit: int) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_010_teile_worte(text: str) -> list[str]:
     """Zerlege einen Satz in Wörter, getrennt nach Leerzeichen."""
     pass
@@ -80,7 +80,7 @@ def aufgabe_012_laengstes_wort(worte: list[str]) -> Optional[str]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_013_zaehle_ziffern(text: str) -> int:
     """Zähle alle Zeichen im Text, die Ziffern sind."""
     pass
@@ -98,7 +98,7 @@ def aufgabe_015_slugify(text: str) -> str:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_016_summe_liste(zahlen: list[int]) -> int:
     """Summiere alle Zahlen in der Liste."""
     pass
@@ -116,7 +116,7 @@ def aufgabe_018_max_wert(zahlen: list[int]) -> Optional[int]:
     pass
 
 
-# Gruppe: Alexander, Erik, Jan B
+# Gruppe1: Alexander
 def aufgabe_019_min_wert(zahlen: list[int]) -> Optional[int]:
     """Gib den kleinsten Wert zurück, None bei leerer Liste."""
     pass

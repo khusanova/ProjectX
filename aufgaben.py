@@ -7,11 +7,12 @@ getesteten Code und haltet euch an PEP 8.
 
 from typing import Any, Optional
 
+text = "Gruppe"
 
 # Gruppe1: Alexander
 def aufgabe_001_spiegle_text(text: str) -> str:
     """Gib den Text rückwärts zurück."""
-    pass
+    return text[::-1]
 
 
 # Gruppe1: Alexander, Erik, Jan B

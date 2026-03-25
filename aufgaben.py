@@ -17,7 +17,12 @@ def aufgabe_001_spiegle_text(text: str) -> str:
 # Gruppe: Erik
 def aufgabe_002_zaehle_vokale(text: str) -> int:
     """Zähle die Anzahl der Vokale im Text (a, e, i, o, u)."""
-    pass
+    vowels = "aeiou"
+    count = 0
+    for char in text.lower():
+        if char in vowels:
+            count += 1
+    return count
 
 
 # Jan B

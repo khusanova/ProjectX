@@ -232,8 +232,14 @@ def aufgabe_037_dict_values_sum(data: dict[str, int]) -> int:
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_038_invert_dict(data: dict[str, str]) -> dict[str, str]:
-    """Tausche Schlüssel und Werte (Fehler bei Duplikaten klären)."""
-    pass
+    """Tauscht Schlüssel und Werte eines Dictionary's."""
+    inverted = {}
+    for key, value in data.items():
+        if value not in inverted:
+            inverted[value] = [key]
+        else:
+            inverted[value].append(key)
+    return inverted
 
 
 # Gruppe: Jennifer, Eric, Vincent

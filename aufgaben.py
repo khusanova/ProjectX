@@ -249,19 +249,32 @@ def aufgabe_037_dict_values_sum(data: dict[str, int]) -> int:
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_038_invert_dict(data: dict[str, str]) -> dict[str, str]:
-    """Tausche Schlüssel und Werte (Fehler bei Duplikaten klären)."""
-    pass
+    """Tauscht Schlüssel und Werte eines Dictionary's."""
+    inverted = {}
+    for key, value in data.items():
+        if value not in inverted:
+            inverted[value] = [key]
+        else:
+            inverted[value].append(key)
+    return inverted
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_039_merge_dicts(a: dict[str, Any], b: dict[str, Any]) -> dict[str, Any]:
-    """Führe zwei Dicts zusammen, b überschreibt a bei Konflikten."""
-    pass
+    """
+    Führt zwei Dictionarys zusammen(b überschreibt a bei Konflikten).
+    Input: 2 Dicts Output: 1 Dict
+    """
+    ergebnis = a | b
+    return ergebnis
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_040_count_letters(text: str) -> dict[str, int]:
-    """Zähle, wie oft jeder Buchstabe im Text vorkommt (case-insensitive)."""
+    """
+    Zählt, wie oft jeder Buchstabe im Text vorkommt (case-insensitive).
+    Input: Str Output: Dict
+    """
     dict = {}
     for char in text.lower():
         if char in dict:

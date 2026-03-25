@@ -131,37 +131,57 @@ def aufgabe_020_sortiere_aufsteigend(zahlen: list[int]) -> list[int]:
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_021_sortiere_absteigend(zahlen: list[int]) -> list[int]:
     """Gib eine neue Liste mit absteigend sortierten Zahlen zurück."""
-    pass
+    return sorted(zahlen, reverse=True)
+    # Wenn „neue Liste“ verlangt wird → sorted()
+    # Wenn „in place sortieren“ erlaubt ist → .sort()
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_022_filter_gerade(zahlen: list[int]) -> list[int]:
     """Filtere alle geraden Zahlen aus der Liste."""
-    pass
+    gerade_zahlen = []
+    for zahl in zahlen:
+        if zahl % 2 == 0:
+            gerade_zahlen.append(zahl)
+    return gerade_zahlen
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_023_filter_ungerade(zahlen: list[int]) -> list[int]:
     """Filtere alle ungeraden Zahlen aus der Liste."""
-    pass
+    ungerade_zahlen = []
+    for zahl in zahlen:
+        if zahl % 2 != 0:
+            ungerade_zahlen.append(zahl)
+    return ungerade_zahlen
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_024_quadrate(zahlen: list[int]) -> list[int]:
     """Gib eine Liste mit Quadraten aller Zahlen zurück."""
-    pass
+    quadrate = []
+    for zahl in zahlen:
+        quadrate.append(zahl * zahl)
+    return quadrate
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_025_unique_werte(zahlen: list[int]) -> list[int]:
     """Entferne Duplikate, erhalte die erste Reihenfolge."""
-    pass
+    unikate_zahlen = []
+    for zahl in zahlen:
+        if zahl not in unikate_zahlen:
+            unikate_zahlen.append(zahl)
+    return unikate_zahlen
 
 
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_026_finde_index(werte: list[str], wert: str) -> int:
     """Finde den Index von wert, -1 wenn nicht vorhanden."""
-    pass
+    if wert in werte:
+        return werte.index(wert)
+    else:
+        return -1
 
 
 # Gruppe: Jennifer, Eric, Vincent
@@ -245,7 +265,11 @@ def aufgabe_039_merge_dicts(a: dict[str, Any], b: dict[str, Any]) -> dict[str, A
 # Gruppe: Jennifer, Eric, Vincent
 def aufgabe_040_count_letters(text: str) -> dict[str, int]:
     """Zähle, wie oft jeder Buchstabe im Text vorkommt (case-insensitive)."""
-    pass
+    char_set = set(text)
+    char_count = {}
+    for char in char_set:
+        char_count[char] = text.count(char)
+    return char_count
 
 
 # Gruppe: Muhammad, Yanu, Natalya
@@ -261,7 +285,9 @@ def aufgabe_042_word_frequency(worte: list[str]) -> dict[str, int]:
 
 
 # Gruppe: Muhammad, Yanu, Natalya
-def aufgabe_043_dict_without_keys(data: dict[str, int], keys: list[str]) -> dict[str, int]:
+def aufgabe_043_dict_without_keys(
+    data: dict[str, int], keys: list[str]
+) -> dict[str, int]:
     """Gib ein neues Dict ohne die angegebenen Schlüssel zurück."""
     pass
 
@@ -351,7 +377,9 @@ def aufgabe_057_kgv(a: int, b: int) -> int:
 
 
 # Gruppe: Muhammad, Yanu, Natalya
-def aufgabe_058_durchschnitt_gewichtet(werte: list[float], gewichte: list[float]) -> float:
+def aufgabe_058_durchschnitt_gewichtet(
+    werte: list[float], gewichte: list[float]
+) -> float:
     """Berechne den gewichteten Mittelwert, gleiche Länge vorausgesetzt."""
     pass
 
@@ -405,7 +433,9 @@ def aufgabe_066_moving_average(werte: list[float], fenster: int) -> list[float]:
 
 
 # Gruppe: Felix, Andreas, Johannes
-def aufgabe_067_linear_map(wert: float, alt_min: float, alt_max: float, neu_min: float, neu_max: float) -> float:
+def aufgabe_067_linear_map(
+    wert: float, alt_min: float, alt_max: float, neu_min: float, neu_max: float
+) -> float:
     """Mappe wert linear vom Bereich alt_min..alt_max nach neu_min..neu_max."""
     pass
 
@@ -441,7 +471,9 @@ def aufgabe_072_swap_keys_values(data: dict[str, str]) -> dict[str, str]:
 
 
 # Gruppe: Felix, Andreas, Johannes
-def aufgabe_073_filter_dict_by_value(data: dict[str, int], minimum: int) -> dict[str, int]:
+def aufgabe_073_filter_dict_by_value(
+    data: dict[str, int], minimum: int
+) -> dict[str, int]:
     """Filtere Einträge, deren Wert mindestens minimum ist."""
     pass
 
@@ -459,7 +491,9 @@ def aufgabe_075_dict_diff(a: dict[str, int], b: dict[str, int]) -> dict[str, str
 
 
 # Gruppe: Felix, Andreas, Johannes
-def aufgabe_076_sortiere_tupel_nach_index(eintraege: list[tuple[Any, ...]], index: int = 0) -> list[tuple[Any, ...]]:
+def aufgabe_076_sortiere_tupel_nach_index(
+    eintraege: list[tuple[Any, ...]], index: int = 0
+) -> list[tuple[Any, ...]]:
     """Sortiere eine Liste von Tupeln nach dem angegebenen Index."""
     pass
 
@@ -483,7 +517,9 @@ def aufgabe_079_spaltenmittel(matrix: list[list[float]]) -> list[float]:
 
 
 # Gruppe: Felix, Andreas, Johannes
-def aufgabe_080_matrix_multiply(a: list[list[int]], b: list[list[int]]) -> list[list[int]]:
+def aufgabe_080_matrix_multiply(
+    a: list[list[int]], b: list[list[int]]
+) -> list[list[int]]:
     """Multipliziere zwei Matrizen (gültige Dimensionen vorausgesetzt)."""
     pass
 
@@ -549,7 +585,9 @@ def aufgabe_090_anagramm(text_a: str, text_b: str) -> bool:
 
 
 # Gruppe: Jan R., York-Phillipp, Michael
-def aufgabe_091_zeichenhaeufigkeit_top(text: str, limit: int = 3) -> list[tuple[str, int]]:
+def aufgabe_091_zeichenhaeufigkeit_top(
+    text: str, limit: int = 3
+) -> list[tuple[str, int]]:
     """Gib die häufigsten Zeichen mitsamt Häufigkeit zurück."""
     pass
 
@@ -606,4 +644,3 @@ def aufgabe_099_parse_kv(text: str) -> dict[str, str]:
 def aufgabe_100_teile_in_abschnitte(text: str, breite: int) -> list[str]:
     """Zerlege einen Text in Abschnitte fester Breite."""
     pass
-
